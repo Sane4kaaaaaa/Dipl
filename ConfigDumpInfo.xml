@@ -419,9 +419,9 @@
 			<Metadata name="Enum.Образование.EnumValue.Начальное" id="88142c4f-7c4a-45d4-8876-2989b8382fa1"/>
 			<Metadata name="Enum.Образование.EnumValue.Высшее" id="f1984d08-8985-4a5b-8db8-3c252a147e5f"/>
 		</Metadata>
-		<Metadata name="Enum.Пол" id="5a3a1b8d-d5b0-4d93-8a31-462de4749beb" configVersion="d6ce348bf2cec6479f7768f348a1a77200000000">
+		<Metadata name="Enum.Пол" id="5a3a1b8d-d5b0-4d93-8a31-462de4749beb" configVersion="76fd89394b1dbd4f82a91ac8358ed50a00000000">
 			<Metadata name="Enum.Пол.EnumValue.Мужской" id="2320ce65-9384-49d0-a971-6768d922aed1"/>
-			<Metadata name="Enum.Пол.EnumValue.Женский1" id="c9bc5e6e-624f-45c2-8726-635e9d90d1fa"/>
+			<Metadata name="Enum.Пол.EnumValue.Женский" id="c9bc5e6e-624f-45c2-8726-635e9d90d1fa"/>
 		</Metadata>
 		<Metadata name="Enum.СоциальноеПоложение" id="381603b5-ba45-4418-985a-5cbdef26c21a" configVersion="16341e05c3d721488370ce636e63876600000000">
 			<Metadata name="Enum.СоциальноеПоложение.EnumValue.Домохозяйка" id="656c02d1-6d17-4cf2-a91b-c2f4c2a71e9d"/>
