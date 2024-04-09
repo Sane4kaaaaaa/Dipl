@@ -20,6 +20,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.Адресация</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Task.Согласование</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">BusinessProcess.БПСогласование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">BusinessProcess.БППроверка</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

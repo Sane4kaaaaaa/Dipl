@@ -648,8 +648,8 @@
 		<Metadata name="Role.ТолькоПросмотр" id="f0bd2ae4-ba5d-492f-850a-0c86107b9810" configVersion="7bc742335af4b34b93dd8751042b1ceb00000000"/>
 		<Metadata name="Role.ТолькоПросмотр.Rights" id="f0bd2ae4-ba5d-492f-850a-0c86107b9810.0" configVersion="fcd7fc6f05545643a9b0799d765462ea00000000"/>
 		<Metadata name="SessionParameter.ТекущийИсполнитель" id="3765405e-8b1e-4e3f-a8d8-3f0ea9765fe0" configVersion="93fc28b174f3ce46b1a83a74b44c864000000000"/>
-		<Metadata name="Subsystem.БизнесПроцессы" id="22a7d06f-72a8-4f71-bbc6-e27e018fba44" configVersion="93eb61ce5e339c40b584e489cd26181b00000000"/>
-		<Metadata name="Subsystem.Бухгалтерия" id="4a7ae855-febf-4e22-af28-719ad3b9227d" configVersion="6d1af69160587a47841e97ea4a2ab01000000000"/>
+		<Metadata name="Subsystem.БизнесПроцессы" id="22a7d06f-72a8-4f71-bbc6-e27e018fba44" configVersion="ff6dc4fe84936c47a71844f26b0747a700000000"/>
+		<Metadata name="Subsystem.Бухгалтерия" id="4a7ae855-febf-4e22-af28-719ad3b9227d" configVersion="6992480fa89c8c4a8f3dbb54dcd1499f00000000"/>
 		<Metadata name="Subsystem.Бухгалтерия.CommandInterface" id="4a7ae855-febf-4e22-af28-719ad3b9227d.1" configVersion="5013c7ba2c0d48448dbc9eb4c366069e00000000"/>
 		<Metadata name="Subsystem.Вспомогательное" id="8fa9a4a1-12e2-4b0d-a1a4-2eeb9496041a" configVersion="85ad3f22d035274aa0527beaee14007800000000"/>
 		<Metadata name="Subsystem.Вспомогательное.CommandInterface" id="8fa9a4a1-12e2-4b0d-a1a4-2eeb9496041a.1" configVersion="a710e76aafe94c4e9509ef81a179f1a300000000"/>
