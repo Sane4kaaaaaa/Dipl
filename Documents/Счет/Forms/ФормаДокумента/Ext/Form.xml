@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.12">
+	<AutoTime>CurrentOrLast</AutoTime>
+	<UsePostingMode>Auto</UsePostingMode>
+	<RepostOnWrite>true</RepostOnWrite>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="BeforeWrite">ПередЗаписью</Event>
+	</Events>
+	<ChildItems>
+		<InputField name="Номер" id="1">
+			<DataPath>Объект.Number</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="Дата" id="4">
+			<DataPath>Объект.Date</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="Склад" id="7">
+			<DataPath>Объект.Склад</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="СкладКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="СкладРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<InputField name="Контрагент" id="10">
+			<DataPath>Объект.Контрагент</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="КонтрагентКонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="КонтрагентРасширеннаяПодсказка" id="12"/>
+		</InputField>
+		<CheckBoxField name="СкидкаСогласована" id="58">
+			<DataPath>Объект.СкидкаСогласована</DataPath>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="СкидкаСогласованаКонтекстноеМеню" id="59"/>
+			<ExtendedTooltip name="СкидкаСогласованаРасширеннаяПодсказка" id="60"/>
+		</CheckBoxField>
+		<InputField name="СуммаДокумента" id="13">
+			<DataPath>Объект.СуммаДокумента</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="СуммаДокументаКонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="СуммаДокументаРасширеннаяПодсказка" id="15"/>
+		</InputField>
+		<Table name="ТЧ_Материалы" id="16">
+			<Representation>List</Representation>
+			<Footer>true</Footer>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Объект.ТЧ_Материалы</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="ТЧ_МатериалыКонтекстноеМеню" id="17"/>
+			<AutoCommandBar name="ТЧ_МатериалыКоманднаяПанель" id="18"/>
+			<ExtendedTooltip name="ТЧ_МатериалыРасширеннаяПодсказка" id="19"/>
+			<SearchStringAddition name="ТЧ_МатериалыСтрокаПоиска" id="20">
+				<AdditionSource>
+					<Item>ТЧ_Материалы</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ТЧ_МатериалыСтрокаПоискаКонтекстноеМеню" id="21"/>
+				<ExtendedTooltip name="ТЧ_МатериалыСтрокаПоискаРасширеннаяПодсказка" id="22"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ТЧ_МатериалыСостояниеПросмотра" id="23">
+				<AdditionSource>
+					<Item>ТЧ_Материалы</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ТЧ_МатериалыСостояниеПросмотраКонтекстноеМеню" id="24"/>
+				<ExtendedTooltip name="ТЧ_МатериалыСостояниеПросмотраРасширеннаяПодсказка" id="25"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ТЧ_МатериалыУправлениеПоиском" id="26">
+				<AdditionSource>
+					<Item>ТЧ_Материалы</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ТЧ_МатериалыУправлениеПоискомКонтекстноеМеню" id="27"/>
+				<ExtendedTooltip name="ТЧ_МатериалыУправлениеПоискомРасширеннаяПодсказка" id="28"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<LabelField name="ТЧ_МатериалыНомерСтроки" id="29">
+					<DataPath>Объект.ТЧ_Материалы.LineNumber</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТЧ_МатериалыНомерСтрокиКонтекстноеМеню" id="30"/>
+					<ExtendedTooltip name="ТЧ_МатериалыНомерСтрокиРасширеннаяПодсказка" id="31"/>
+				</LabelField>
+				<InputField name="ТЧ_МатериалыМатериал" id="32">
+					<DataPath>Объект.ТЧ_Материалы.Материал</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТЧ_МатериалыМатериалКонтекстноеМеню" id="33"/>
+					<ExtendedTooltip name="ТЧ_МатериалыМатериалРасширеннаяПодсказка" id="34"/>
+					<Events>
+						<Event name="OnChange">ТЧ_МатериалыМатериалПриИзменении</Event>
+					</Events>
+				</InputField>
+				<InputField name="ТЧ_МатериалыЦена" id="35">
+					<DataPath>Объект.ТЧ_Материалы.Цена</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТЧ_МатериалыЦенаКонтекстноеМеню" id="36"/>
+					<ExtendedTooltip name="ТЧ_МатериалыЦенаРасширеннаяПодсказка" id="37"/>
+					<Events>
+						<Event name="OnChange">ТЧ_МатериалыЦенаПриИзменении</Event>
+					</Events>
+				</InputField>
+				<InputField name="ТЧ_МатериалыКоличество" id="38">
+					<DataPath>Объект.ТЧ_Материалы.Количество</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТЧ_МатериалыКоличествоКонтекстноеМеню" id="39"/>
+					<ExtendedTooltip name="ТЧ_МатериалыКоличествоРасширеннаяПодсказка" id="40"/>
+					<Events>
+						<Event name="OnChange">ТЧ_МатериалыКоличествоПриИзменении</Event>
+					</Events>
+				</InputField>
+				<InputField name="ТЧ_МатериалыСкидка" id="55">
+					<DataPath>Объект.ТЧ_Материалы.Скидка</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТЧ_МатериалыСкидкаКонтекстноеМеню" id="56"/>
+					<ExtendedTooltip name="ТЧ_МатериалыСкидкаРасширеннаяПодсказка" id="57"/>
+					<Events>
+						<Event name="OnChange">ТЧ_МатериалыСкидкаПриИзменении</Event>
+					</Events>
+				</InputField>
+				<InputField name="ТЧ_МатериалыСумма" id="41">
+					<DataPath>Объект.ТЧ_Материалы.Сумма</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<FooterDataPath>Объект.ТЧ_Материалы.TotalСумма</FooterDataPath>
+					<ContextMenu name="ТЧ_МатериалыСуммаКонтекстноеМеню" id="42"/>
+					<ExtendedTooltip name="ТЧ_МатериалыСуммаРасширеннаяПодсказка" id="43"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+		<UsualGroup name="ГруппаВалют" id="44">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Валюта</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа валют</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>AlwaysHorizontal</Group>
+			<Representation>NormalSeparation</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаВалютРасширеннаяПодсказка" id="45"/>
+			<ChildItems>
+				<LabelDecoration name="ДекорацияНадписьВалюта" id="52">
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Валюта</v8:content>
+						</v8:item>
+					</Title>
+					<Hyperlink>true</Hyperlink>
+					<ContextMenu name="ДекорацияНадписьВалютаКонтекстноеМеню" id="53"/>
+					<ExtendedTooltip name="ДекорацияНадписьВалютаРасширеннаяПодсказка" id="54"/>
+					<Events>
+						<Event name="Click">ДекорацияНадписьВалютаНажатие</Event>
+					</Events>
+				</LabelDecoration>
+				<InputField name="Валюта" id="46">
+					<DataPath>Объект.Валюта</DataPath>
+					<TitleLocation>None</TitleLocation>
+					<ContextMenu name="ВалютаКонтекстноеМеню" id="47"/>
+					<ExtendedTooltip name="ВалютаРасширеннаяПодсказка" id="48"/>
+					<Events>
+						<Event name="OnChange">ВалютаПриИзменении</Event>
+					</Events>
+				</InputField>
+				<LabelField name="Курс" id="49">
+					<DataPath>Объект.Курс</DataPath>
+					<ContextMenu name="КурсКонтекстноеМеню" id="50"/>
+					<ExtendedTooltip name="КурсРасширеннаяПодсказка" id="51"/>
+				</LabelField>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DocumentObject.Счет</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+			<UseAlways>
+				<Field>Объект.RegisterRecords</Field>
+			</UseAlways>
+		</Attribute>
+	</Attributes>
+</Form>

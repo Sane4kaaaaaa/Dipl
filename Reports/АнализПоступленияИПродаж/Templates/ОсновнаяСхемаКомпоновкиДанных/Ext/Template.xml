@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetUnion">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТЧ_Материалы.СуммаПоступления</dataPath>
+			<field>ТЧ_Материалы.СуммаПоступления</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сумма поступления</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТЧ_Материалы.Материал</dataPath>
+			<field>ТЧ_Материалы.Материал</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Материал</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТЧ_Материалы.Поступило</dataPath>
+			<field>ТЧ_Материалы.Поступило</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Поступило</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТЧ_Материалы.Продано</dataPath>
+			<field>ТЧ_Материалы.Продано</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Продано</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТЧ_Материалы.СуммаПродаж</dataPath>
+			<field>ТЧ_Материалы.СуммаПродаж</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сумма продаж</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<item xsi:type="DataSetQuery">
+			<name>Поступление</name>
+			<field xsi:type="DataSetFieldNestedDataSet">
+				<dataPath>ТЧ_Материалы</dataPath>
+				<field>ТЧ_Материалы</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ТЧ_Материалы.СуммаПоступления</dataPath>
+				<field>ТЧ_Материалы.СуммаПоступления</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Т ч материалы.Сумма поступления</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ТЧ_Материалы.Материал</dataPath>
+				<field>ТЧ_Материалы.Материал</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ТЧ_Материалы.Поступило</dataPath>
+				<field>ТЧ_Материалы.Поступило</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Т ч материалы.Поступило</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<dataSource>ИсточникДанных1</dataSource>
+			<query>ВЫБРАТЬ
+	ПриходнаяНакладная.ТЧ_Материалы.(
+		Материал КАК Материал,
+		Количество КАК Поступило,
+		Сумма КАК СуммаПоступления
+	) КАК ТЧ_Материалы
+ИЗ
+	Документ.ПриходнаяНакладная КАК ПриходнаяНакладная</query>
+		</item>
+		<item xsi:type="DataSetQuery">
+			<name>Расход</name>
+			<field xsi:type="DataSetFieldNestedDataSet">
+				<dataPath>ТЧ_Материалы</dataPath>
+				<field>ТЧ_Материалы</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ТЧ_Материалы.Материал</dataPath>
+				<field>ТЧ_Материалы.Материал</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ТЧ_Материалы.Продано</dataPath>
+				<field>ТЧ_Материалы.Продано</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Т ч материалы.Продано</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ТЧ_Материалы.СуммаПродаж</dataPath>
+				<field>ТЧ_Материалы.СуммаПродаж</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Т ч материалы.Сумма продаж</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<dataSource>ИсточникДанных1</dataSource>
+			<query>ВЫБРАТЬ
+	РасходнаяНакладная.ТЧ_Материалы.(
+		Материал КАК Материал,
+		Количество КАК Продано,
+		Сумма КАК СуммаПродаж
+	) КАК ТЧ_Материалы
+ИЗ
+	Документ.РасходнаяНакладная КАК РасходнаяНакладная</query>
+		</item>
+	</dataSet>
+	<totalField>
+		<dataPath>ТЧ_Материалы.Поступило</dataPath>
+		<expression>Сумма(ТЧ_Материалы.Поступило)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ТЧ_Материалы.Продано</dataPath>
+		<expression>Сумма(ТЧ_Материалы.Продано)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ТЧ_Материалы.СуммаПоступления</dataPath>
+		<expression>Сумма(ТЧ_Материалы.СуммаПоступления)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ТЧ_Материалы.СуммаПродаж</dataPath>
+		<expression>Сумма(ТЧ_Материалы.СуммаПродаж)</expression>
+	</totalField>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ТЧ_Материалы.Материал</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ТЧ_Материалы.Поступило</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ТЧ_Материалы.Продано</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ТЧ_Материалы.СуммаПоступления</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ТЧ_Материалы.СуммаПродаж</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:outputParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МакетОформления</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">Зеленый</dcscor:value>
+				</dcscor:item>
+			</dcsset:outputParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>ТЧ_Материалы.Материал</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+				</dcsset:groupItems>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

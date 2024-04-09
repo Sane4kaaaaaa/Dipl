@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.12">
+	<Item id="018d7229-2b7f-43ac-a9b3-81de89d72887">
+		<Name>Администрация</Name>
+		<Code>00001</Code>
+		<Description>Администрация</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="9f91b53e-39f6-4d2e-9a69-fc8bfef0273c">
+		<Name>Бухгалтерия</Name>
+		<Code>00002</Code>
+		<Description>Бухгалтерия</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="37e4cd3c-8a4f-4814-80d5-3978aff00d40">
+		<Name>ОтделКадров</Name>
+		<Code>00003</Code>
+		<Description>Отдел кадров</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="d6b28d6f-4682-4f27-9b41-03146e97dbe7">
+		<Name>ОтделПродаж</Name>
+		<Code>00006</Code>
+		<Description>Отдел продаж</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="fc0e3db4-6b47-4b05-b119-64c1a8ab4d93">
+		<Name>Производство</Name>
+		<Code>00005</Code>
+		<Description>Производство</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="ff50d2ce-10a1-4b80-8ba8-ceb62e5413d5">
+		<Name>Склад</Name>
+		<Code>00007</Code>
+		<Description>Склад</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="7b9b38d5-bbff-4320-83d2-65e3c95b8079">
+		<Name>ТорговыйОтдел</Name>
+		<Code>00004</Code>
+		<Description>Торговый отдел</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>
