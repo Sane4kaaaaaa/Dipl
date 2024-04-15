@@ -242,6 +242,7 @@
 			<Constant>ТипОрганизация</Constant>
 			<Constant>ОбычнаяСкидка</Constant>
 			<CommonForm>ФормаКонстант</CommonForm>
+			<Catalog>КарточкаГруза</Catalog>
 			<Catalog>Клиенты</Catalog>
 			<Catalog>Номенклатура</Catalog>
 			<Catalog>Сотрудники</Catalog>
@@ -258,7 +259,7 @@
 			<Catalog>Субконто</Catalog>
 			<Catalog>ВидыГрафиковРаботы</Catalog>
 			<Catalog>Должности</Catalog>
-			<Catalog>КарточкаГруза</Catalog>
+			<Catalog>ТранспортныеСредства</Catalog>
 			<Document>ПриходнаяНакладная</Document>
 			<Document>Счет</Document>
 			<Document>Доверенность</Document>

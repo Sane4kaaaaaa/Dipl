@@ -92,7 +92,7 @@
 		<Metadata name="Catalog.Должности.Predefined" id="82572105-a291-4162-a27f-6ee772275e35.1c" configVersion="549561c38bb38745908e94d4534a229d00000000"/>
 		<Metadata name="Catalog.ДополнительныеСвойстваКлиентов" id="dcf306b6-e721-40d3-a941-e0e7cd03440e" configVersion="74bf4f3105437e44bbb6500a3f10bcd200000000"/>
 		<Metadata name="Catalog.ДополнительныеСвойстваНоменклатуры" id="fa9332a0-9bb7-4fa2-8343-cd081c8be134" configVersion="15880cb62103a740a2dce74f3b33d3f500000000"/>
-		<Metadata name="Catalog.КарточкаГруза" id="78950082-372d-4d7b-8b42-d23e0ef3d356" configVersion="8c934e3519754f4a985231d25c910d2b00000000">
+		<Metadata name="Catalog.КарточкаГруза" id="78950082-372d-4d7b-8b42-d23e0ef3d356" configVersion="dc3e0d6ae3af8841bbcbf4b8452823f600000000">
 			<Metadata name="Catalog.КарточкаГруза.Attribute.Вес" id="8315558b-0f42-4afa-8782-a29797a1f7c1"/>
 			<Metadata name="Catalog.КарточкаГруза.Attribute.Объем" id="87b284c5-327a-4bd4-9edb-5c61152a63a3"/>
 		</Metadata>
@@ -181,6 +181,17 @@
 		<Metadata name="Catalog.Сотрудники.Template.Печать" id="681ef7c7-9637-48b1-affb-0836cc5d30cb" configVersion="e5aeda408a451443a4471c013c87fe4a00000000"/>
 		<Metadata name="Catalog.Сотрудники.Template.Печать.Template" id="681ef7c7-9637-48b1-affb-0836cc5d30cb.0" configVersion="1577e5b2a4804e409744c29a4217d9c100000000"/>
 		<Metadata name="Catalog.Субконто" id="5799194b-82d1-4264-9ea3-ceb78df4bc10" configVersion="488be12d71f97348a806cb5ebbabf0fb00000000"/>
+		<Metadata name="Catalog.ТранспортныеСредства" id="c887c25f-0844-4814-98aa-b9b0744b9504" configVersion="db25133ff33e5946b51470e0ce29981f00000000">
+			<Metadata name="Catalog.ТранспортныеСредства.Attribute.Вместимость" id="0184e430-4fc7-4d59-836d-691f542b5d74"/>
+			<Metadata name="Catalog.ТранспортныеСредства.Attribute.ВидТС" id="2f33e455-d85e-49fe-9320-d84d883018ce"/>
+			<Metadata name="Catalog.ТранспортныеСредства.Attribute.ГодВыпуска" id="8e0f510b-c85a-40c0-b29e-982e5e948ca1"/>
+			<Metadata name="Catalog.ТранспортныеСредства.Attribute.Грузоподъемность" id="c7d05f79-a795-45f9-aa51-75562a6e4e2d"/>
+			<Metadata name="Catalog.ТранспортныеСредства.Attribute.НомерТС" id="ed5a14d2-3742-492a-86a7-4044eb352b29"/>
+		</Metadata>
+		<Metadata name="Catalog.ТранспортныеСредства.Form.ФормаСписка" id="76567234-a7b5-4cc3-9489-0ff321e17970" configVersion="d5622d6f5f177142b29f0980310f25b100000000"/>
+		<Metadata name="Catalog.ТранспортныеСредства.Form.ФормаСписка.Form" id="76567234-a7b5-4cc3-9489-0ff321e17970.0" configVersion="df2ba3e2d49c6645928ec7bf1c14865f00000000"/>
+		<Metadata name="Catalog.ТранспортныеСредства.Form.ФормаЭлемента" id="3500c02b-ab11-46fc-a40f-763fbb12df82" configVersion="58d750a5ab76d942b8dc4ef5feb5314200000000"/>
+		<Metadata name="Catalog.ТранспортныеСредства.Form.ФормаЭлемента.Form" id="3500c02b-ab11-46fc-a40f-763fbb12df82.0" configVersion="7f979a4393329148bf7009061158f1e300000000"/>
 		<Metadata name="ChartOfAccounts.Основной" id="1ec201c4-b0cb-4e93-8def-1d4eb5ea60db" configVersion="862fd11faf9ace4db198d430e55326ae00000000">
 			<Metadata name="ChartOfAccounts.Основной.ExtDimensionAccountingFlag.Количественный" id="09b112c3-d470-42d3-9880-e3ad10320eaa"/>
 			<Metadata name="ChartOfAccounts.Основной.AccountingFlag.Количественный" id="127ad314-bf18-4916-ac93-7641aee173e8"/>
@@ -200,7 +211,7 @@
 		<Metadata name="CommonModule.РаботаСДокументами.Module" id="80a7e2a4-9d53-4a25-9c41-2cfd781375d7.0" configVersion="2efaf64df10fa04ab102774148881b5100000000"/>
 		<Metadata name="CommonModule.РаботаСоСправочниками" id="c4916f3a-8690-4442-898d-cc422e591f1b" configVersion="7e69e04ef569a344ac8f8af2239dafe800000000"/>
 		<Metadata name="CommonModule.РаботаСоСправочниками.Module" id="c4916f3a-8690-4442-898d-cc422e591f1b.0" configVersion="89199db7afc8ed40870bb252b7cc637600000000"/>
-		<Metadata name="Configuration.ИС22_МакароваАС" id="ade98f77-3113-4188-a992-84b95a53aa39" configVersion="db1e03c95a68454996a599d6508fbdc200000000"/>
+		<Metadata name="Configuration.ИС22_МакароваАС" id="ade98f77-3113-4188-a992-84b95a53aa39" configVersion="5755916a6515a2429f122d69f648c8bd00000000"/>
 		<Metadata name="Configuration.ИС22_МакароваАС.SessionModule" id="574dec3d-adb1-4778-b1b6-8164b8e4933e.7" configVersion="d2e8dddae880384fa138ebf39cc7dd7700000000"/>
 		<Metadata name="Constant.НазваниеОрганизации" id="836a2599-5af9-42bc-a509-50c0e0ed5887" configVersion="ec251bb07ed1344e947fdba13a65a54800000000"/>
 		<Metadata name="Constant.ОбычнаяСкидка" id="f874202b-aa85-4dca-a663-093a99085603" configVersion="7672b3001333be4ea225b1b76972abf700000000"/>
@@ -656,13 +667,13 @@
 		<Metadata name="Role.ТолькоПросмотр.Rights" id="f0bd2ae4-ba5d-492f-850a-0c86107b9810.0" configVersion="fcd7fc6f05545643a9b0799d765462ea00000000"/>
 		<Metadata name="SessionParameter.ТекущийИсполнитель" id="3765405e-8b1e-4e3f-a8d8-3f0ea9765fe0" configVersion="93fc28b174f3ce46b1a83a74b44c864000000000"/>
 		<Metadata name="Subsystem.БизнесПроцессы" id="22a7d06f-72a8-4f71-bbc6-e27e018fba44" configVersion="ff6dc4fe84936c47a71844f26b0747a700000000"/>
-		<Metadata name="Subsystem.Бухгалтерия" id="4a7ae855-febf-4e22-af28-719ad3b9227d" configVersion="796d8ce8c3829649ac8460b378f9ee7600000000"/>
+		<Metadata name="Subsystem.Бухгалтерия" id="4a7ae855-febf-4e22-af28-719ad3b9227d" configVersion="b7dfa7e03c6b8a4189186797c60d4b6800000000"/>
 		<Metadata name="Subsystem.Бухгалтерия.CommandInterface" id="4a7ae855-febf-4e22-af28-719ad3b9227d.1" configVersion="5013c7ba2c0d48448dbc9eb4c366069e00000000"/>
-		<Metadata name="Subsystem.Вспомогательное" id="8fa9a4a1-12e2-4b0d-a1a4-2eeb9496041a" configVersion="85ad3f22d035274aa0527beaee14007800000000"/>
+		<Metadata name="Subsystem.Вспомогательное" id="8fa9a4a1-12e2-4b0d-a1a4-2eeb9496041a" configVersion="4c1254a4db829248a661c39ceda22ff300000000"/>
 		<Metadata name="Subsystem.Вспомогательное.CommandInterface" id="8fa9a4a1-12e2-4b0d-a1a4-2eeb9496041a.1" configVersion="a710e76aafe94c4e9509ef81a179f1a300000000"/>
-		<Metadata name="Subsystem.ЖурналыДокументов" id="e392d456-0038-406b-a08e-58354e65c571" configVersion="03d08471e9d9f24b9e074144be43f67400000000"/>
-		<Metadata name="Subsystem.Кадры" id="09acf113-facd-4996-864f-b15bb1601aa3" configVersion="8aba28abf302a34c9131d5d9457b382900000000"/>
-		<Metadata name="Subsystem.Торговля" id="feb69b25-41dd-4fc5-8369-8167b07271cb" configVersion="904a5159c8adde4dad1f9ee75b652aa700000000"/>
+		<Metadata name="Subsystem.ЖурналыДокументов" id="e392d456-0038-406b-a08e-58354e65c571" configVersion="f7d9ed5485813e41ae3d5b7dac72280500000000"/>
+		<Metadata name="Subsystem.Кадры" id="09acf113-facd-4996-864f-b15bb1601aa3" configVersion="8ba260977a48e24585fd759b83f1008300000000"/>
+		<Metadata name="Subsystem.Торговля" id="feb69b25-41dd-4fc5-8369-8167b07271cb" configVersion="7a38f9016022d04ba9c53bd1e81ed4fa00000000"/>
 		<Metadata name="Subsystem.Торговля.CommandInterface" id="feb69b25-41dd-4fc5-8369-8167b07271cb.1" configVersion="869238b9bcceb6499ce8cec65107214200000000"/>
 		<Metadata name="Task.ПроверкаОплаты" id="a8096038-01de-4138-b056-5a13617ce711" configVersion="cd1f7a7f4cdc744c877d3e6f90ff772000000000">
 			<Metadata name="Task.ПроверкаОплаты.Attribute.ДатаВнесения" id="0dba440d-64cc-489c-bb76-9a3813f858cf"/>
