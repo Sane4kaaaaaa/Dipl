@@ -16,47 +16,26 @@
 			<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
 			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
 		</InputField>
-		<InputField name="Родитель" id="7">
-			<DataPath>Объект.Parent</DataPath>
+		<InputField name="Вес" id="10">
+			<DataPath>Объект.Вес</DataPath>
 			<EditMode>EnterOnInput</EditMode>
-			<ContextMenu name="РодительКонтекстноеМеню" id="8"/>
-			<ExtendedTooltip name="РодительРасширеннаяПодсказка" id="9"/>
+			<ContextMenu name="ВесКонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="ВесРасширеннаяПодсказка" id="12"/>
 		</InputField>
-		<InputField name="ЕдиницаИзмерения" id="10">
-			<DataPath>Объект.ЕдиницаИзмерения</DataPath>
+		<InputField name="Объем" id="13">
+			<DataPath>Объект.Объем</DataPath>
 			<EditMode>EnterOnInput</EditMode>
-			<ContextMenu name="ЕдиницаИзмеренияКонтекстноеМеню" id="11"/>
-			<ExtendedTooltip name="ЕдиницаИзмеренияРасширеннаяПодсказка" id="12"/>
-		</InputField>
-		<InputField name="ЦенаПокупки" id="13">
-			<DataPath>1/0:dad4eaf0-648f-4052-94d2-0dbb12dd8582</DataPath>
-			<EditMode>EnterOnInput</EditMode>
-			<ContextMenu name="ЦенаПокупкиКонтекстноеМеню" id="14"/>
-			<ExtendedTooltip name="ЦенаПокупкиРасширеннаяПодсказка" id="15"/>
-		</InputField>
-		<InputField name="ЦенаПродажи" id="16">
-			<DataPath>Объект.ЦенаПродажи</DataPath>
-			<EditMode>EnterOnInput</EditMode>
-			<ContextMenu name="ЦенаПродажиКонтекстноеМеню" id="17"/>
-			<ExtendedTooltip name="ЦенаПродажиРасширеннаяПодсказка" id="18"/>
+			<ContextMenu name="ОбъемКонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="ОбъемРасширеннаяПодсказка" id="15"/>
 		</InputField>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">
 			<Type>
-				<v8:Type>cfg:CatalogObject.Номенклатура</v8:Type>
+				<v8:Type>cfg:CatalogObject.КарточкаГруза</v8:Type>
 			</Type>
 			<MainAttribute>true</MainAttribute>
 			<SavedData>true</SavedData>
 		</Attribute>
 	</Attributes>
-	<CommandInterface>
-		<NavigationPanel>
-			<Item>
-				<Command>FilterCriterion.КритерийНоменклатура.StandardCommand.OpenByValue</Command>
-				<Type>Auto</Type>
-				<DefaultVisible>false</DefaultVisible>
-			</Item>
-		</NavigationPanel>
-	</CommandInterface>
 </Form>

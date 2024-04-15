@@ -4357,13 +4357,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.Номенклатура.Attribute.ЦенаПокупки</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Catalog.ДополнительныеСвойстваКлиентов.StandardAttribute.PredefinedDataName</name>
 		<right>
 			<name>View</name>

@@ -258,6 +258,7 @@
 			<Catalog>Субконто</Catalog>
 			<Catalog>ВидыГрафиковРаботы</Catalog>
 			<Catalog>Должности</Catalog>
+			<Catalog>КарточкаГруза</Catalog>
 			<Document>ПриходнаяНакладная</Document>
 			<Document>Счет</Document>
 			<Document>Доверенность</Document>

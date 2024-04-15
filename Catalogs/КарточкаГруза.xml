@@ -1,38 +1,38 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.12">
-	<Catalog uuid="ddb175cd-674e-49d1-8557-1699589fd58d">
+	<Catalog uuid="78950082-372d-4d7b-8b42-d23e0ef3d356">
 		<InternalInfo>
-			<xr:GeneratedType name="CatalogObject.Номенклатура" category="Object">
-				<xr:TypeId>fdce6716-c5f8-4a35-8d97-43a1f8bcd34f</xr:TypeId>
-				<xr:ValueId>f6f7da84-c936-46fc-ab50-32d1dcea3665</xr:ValueId>
+			<xr:GeneratedType name="CatalogObject.КарточкаГруза" category="Object">
+				<xr:TypeId>c0f10120-de18-48f6-8929-367e69e3f1a0</xr:TypeId>
+				<xr:ValueId>fd37f434-7665-41b5-a16f-daa1f2e1a096</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogRef.Номенклатура" category="Ref">
-				<xr:TypeId>9cc0bb1c-029b-49d1-a6a8-e510eaed3db0</xr:TypeId>
-				<xr:ValueId>18d7f5a6-9e30-4117-83b0-bd163d7dd845</xr:ValueId>
+			<xr:GeneratedType name="CatalogRef.КарточкаГруза" category="Ref">
+				<xr:TypeId>19e39baf-f02d-46fc-95c3-d14dad1d540c</xr:TypeId>
+				<xr:ValueId>19be2a00-2694-4b24-986d-b53dac7b7d73</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogSelection.Номенклатура" category="Selection">
-				<xr:TypeId>965d4d30-92e5-4143-8b18-4d78a6a1f403</xr:TypeId>
-				<xr:ValueId>7c1a0fc4-4cf0-4515-a66b-c01fadc79a0c</xr:ValueId>
+			<xr:GeneratedType name="CatalogSelection.КарточкаГруза" category="Selection">
+				<xr:TypeId>7067a2cc-b547-44f3-90dc-0acb747f12b0</xr:TypeId>
+				<xr:ValueId>157f2f71-ffe4-44b1-8e91-a91c55b03916</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogList.Номенклатура" category="List">
-				<xr:TypeId>36846a92-2fe3-4e2c-a09a-7f018491a0f3</xr:TypeId>
-				<xr:ValueId>c57437f9-2f60-43c8-a6f4-49ea37503d9a</xr:ValueId>
+			<xr:GeneratedType name="CatalogList.КарточкаГруза" category="List">
+				<xr:TypeId>02bdaf98-8ebe-424c-b3a9-6084a6b18a64</xr:TypeId>
+				<xr:ValueId>d7c321b0-402b-4cec-9d01-346637983f1a</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogManager.Номенклатура" category="Manager">
-				<xr:TypeId>4bbb657a-bfbd-44c4-abee-f9b6c5fc734d</xr:TypeId>
-				<xr:ValueId>cb57d704-93b7-4e07-a632-b062009af78e</xr:ValueId>
+			<xr:GeneratedType name="CatalogManager.КарточкаГруза" category="Manager">
+				<xr:TypeId>cc799166-09cf-4c62-b72d-4cf21fea3c72</xr:TypeId>
+				<xr:ValueId>91a8772b-4320-449f-87a2-ce479f5108f8</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>Номенклатура</Name>
+			<Name>КарточкаГруза</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Номенклатура</v8:content>
+					<v8:content>Карточка груза</v8:content>
 				</v8:item>
 			</Synonym>
-			<Comment>Номенклатура</Comment>
-			<Hierarchical>true</Hierarchical>
+			<Comment/>
+			<Hierarchical>false</Hierarchical>
 			<HierarchyType>HierarchyFoldersAndItems</HierarchyType>
 			<LimitLevelCount>false</LimitLevelCount>
 			<LevelCount>2</LevelCount>
@@ -40,8 +40,8 @@
 			<UseStandardCommands>true</UseStandardCommands>
 			<Owners/>
 			<SubordinationUse>ToItems</SubordinationUse>
-			<CodeLength>10</CodeLength>
-			<DescriptionLength>100</DescriptionLength>
+			<CodeLength>9</CodeLength>
+			<DescriptionLength>25</DescriptionLength>
 			<CodeType>String</CodeType>
 			<CodeAllowedLength>Variable</CodeAllowedLength>
 			<CodeSeries>WholeCatalog</CodeSeries>
@@ -54,15 +54,15 @@
 			<QuickChoice>false</QuickChoice>
 			<ChoiceMode>BothWays</ChoiceMode>
 			<InputByString>
-				<xr:Field>Catalog.Номенклатура.StandardAttribute.Description</xr:Field>
-				<xr:Field>Catalog.Номенклатура.StandardAttribute.Code</xr:Field>
+				<xr:Field>Catalog.КарточкаГруза.StandardAttribute.Description</xr:Field>
+				<xr:Field>Catalog.КарточкаГруза.StandardAttribute.Code</xr:Field>
 			</InputByString>
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
 			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
 			<ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
-			<DefaultObjectForm>Catalog.Номенклатура.Form.ФормаЭлемента</DefaultObjectForm>
+			<DefaultObjectForm>Catalog.КарточкаГруза.Form.ФормаЭлемента</DefaultObjectForm>
 			<DefaultFolderForm/>
-			<DefaultListForm>Catalog.Номенклатура.Form.ФормаСписка</DefaultListForm>
+			<DefaultListForm>Catalog.КарточкаГруза.Form.ФормаСписка</DefaultListForm>
 			<DefaultChoiceForm/>
 			<DefaultFolderChoiceForm/>
 			<AuxiliaryObjectForm/>
@@ -87,65 +87,21 @@
 			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="1eefeb29-628d-440d-99f8-786d58bfec83">
+			<Attribute uuid="8315558b-0f42-4afa-8782-a29797a1f7c1">
 				<Properties>
-					<Name>ЕдиницаИзмерения</Name>
+					<Name>Вес</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Единица измерения</v8:content>
-						</v8:item>
-					</Synonym>
-					<Comment/>
-					<Type>
-						<v8:Type>xs:string</v8:Type>
-						<v8:StringQualifiers>
-							<v8:Length>5</v8:Length>
-							<v8:AllowedLength>Variable</v8:AllowedLength>
-						</v8:StringQualifiers>
-					</Type>
-					<PasswordMode>false</PasswordMode>
-					<Format/>
-					<EditFormat/>
-					<ToolTip/>
-					<MarkNegatives>false</MarkNegatives>
-					<Mask/>
-					<MultiLine>false</MultiLine>
-					<ExtendedEdit>false</ExtendedEdit>
-					<MinValue xsi:nil="true"/>
-					<MaxValue xsi:nil="true"/>
-					<FillFromFillingValue>false</FillFromFillingValue>
-					<FillValue xsi:type="xs:string"/>
-					<FillChecking>DontCheck</FillChecking>
-					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-					<ChoiceParameterLinks/>
-					<ChoiceParameters/>
-					<QuickChoice>Auto</QuickChoice>
-					<CreateOnInput>Auto</CreateOnInput>
-					<ChoiceForm/>
-					<LinkByType/>
-					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-					<Use>ForItem</Use>
-					<Indexing>DontIndex</Indexing>
-					<FullTextSearch>Use</FullTextSearch>
-					<DataHistory>Use</DataHistory>
-				</Properties>
-			</Attribute>
-			<Attribute uuid="ed2c2bd9-1d2e-4c12-a8cf-be7a00f06881">
-				<Properties>
-					<Name>ЦенаПродажи</Name>
-					<Synonym>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Стоимость</v8:content>
+							<v8:content>Вес(гр)</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
 						<v8:Type>xs:decimal</v8:Type>
 						<v8:NumberQualifiers>
-							<v8:Digits>15</v8:Digits>
-							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
 							<v8:AllowedSign>Any</v8:AllowedSign>
 						</v8:NumberQualifiers>
 					</Type>
@@ -176,18 +132,23 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="27ab226b-6f87-454c-b561-85625ffe5e10">
+			<Attribute uuid="87b284c5-327a-4bd4-9edb-5c61152a63a3">
 				<Properties>
-					<Name>ВидНоменклатуры</Name>
+					<Name>Объем</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Вид номенклатуры</v8:content>
+							<v8:content>Объем (см*куб)</v8:content>
 						</v8:item>
 					</Synonym>
-					<Comment/>
+					<Comment>Высота*Ширина*Длина</Comment>
 					<Type>
-						<v8:Type>cfg:CatalogRef.ВариантыНоменклатуры</v8:Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
@@ -218,25 +179,6 @@
 			</Attribute>
 			<Form>ФормаЭлемента</Form>
 			<Form>ФормаСписка</Form>
-			<Template>Печать</Template>
-			<Command uuid="270ccc2f-371f-40f7-b5db-7939b233bba9">
-				<Properties>
-					<Name>Печать</Name>
-					<Synonym/>
-					<Comment/>
-					<Group>FormCommandBarImportant</Group>
-					<CommandParameterType>
-						<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
-					</CommandParameterType>
-					<ParameterUseMode>Multiple</ParameterUseMode>
-					<ModifiesData>false</ModifiesData>
-					<Representation>Auto</Representation>
-					<ToolTip/>
-					<Picture/>
-					<Shortcut/>
-					<OnMainServerUnavalableBehavior>Auto</OnMainServerUnavalableBehavior>
-				</Properties>
-			</Command>
 		</ChildObjects>
 	</Catalog>
 </MetaDataObject>
