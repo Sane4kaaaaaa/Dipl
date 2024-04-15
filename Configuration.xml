@@ -282,6 +282,7 @@
 			<Enum>ТипСклада</Enum>
 			<Enum>ВидОплаты</Enum>
 			<Enum>ВидыНоменклатуры</Enum>
+			<Enum>ВидТС</Enum>
 			<Report>Материалы</Report>
 			<Report>ЦеныПоставщиков</Report>
 			<Report>ДвижениеНаличностиЗаПериод</Report>

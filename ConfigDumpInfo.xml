@@ -92,7 +92,7 @@
 		<Metadata name="Catalog.Должности.Predefined" id="82572105-a291-4162-a27f-6ee772275e35.1c" configVersion="549561c38bb38745908e94d4534a229d00000000"/>
 		<Metadata name="Catalog.ДополнительныеСвойстваКлиентов" id="dcf306b6-e721-40d3-a941-e0e7cd03440e" configVersion="74bf4f3105437e44bbb6500a3f10bcd200000000"/>
 		<Metadata name="Catalog.ДополнительныеСвойстваНоменклатуры" id="fa9332a0-9bb7-4fa2-8343-cd081c8be134" configVersion="15880cb62103a740a2dce74f3b33d3f500000000"/>
-		<Metadata name="Catalog.КарточкаГруза" id="78950082-372d-4d7b-8b42-d23e0ef3d356" configVersion="dc3e0d6ae3af8841bbcbf4b8452823f600000000">
+		<Metadata name="Catalog.КарточкаГруза" id="78950082-372d-4d7b-8b42-d23e0ef3d356" configVersion="8f136f01fef5be4296b8e1b3248a7f3a00000000">
 			<Metadata name="Catalog.КарточкаГруза.Attribute.Вес" id="8315558b-0f42-4afa-8782-a29797a1f7c1"/>
 			<Metadata name="Catalog.КарточкаГруза.Attribute.Объем" id="87b284c5-327a-4bd4-9edb-5c61152a63a3"/>
 		</Metadata>
@@ -181,7 +181,7 @@
 		<Metadata name="Catalog.Сотрудники.Template.Печать" id="681ef7c7-9637-48b1-affb-0836cc5d30cb" configVersion="e5aeda408a451443a4471c013c87fe4a00000000"/>
 		<Metadata name="Catalog.Сотрудники.Template.Печать.Template" id="681ef7c7-9637-48b1-affb-0836cc5d30cb.0" configVersion="1577e5b2a4804e409744c29a4217d9c100000000"/>
 		<Metadata name="Catalog.Субконто" id="5799194b-82d1-4264-9ea3-ceb78df4bc10" configVersion="488be12d71f97348a806cb5ebbabf0fb00000000"/>
-		<Metadata name="Catalog.ТранспортныеСредства" id="c887c25f-0844-4814-98aa-b9b0744b9504" configVersion="db25133ff33e5946b51470e0ce29981f00000000">
+		<Metadata name="Catalog.ТранспортныеСредства" id="c887c25f-0844-4814-98aa-b9b0744b9504" configVersion="1907ac0a6c864949a9e2248432eb328a00000000">
 			<Metadata name="Catalog.ТранспортныеСредства.Attribute.Вместимость" id="0184e430-4fc7-4d59-836d-691f542b5d74"/>
 			<Metadata name="Catalog.ТранспортныеСредства.Attribute.ВидТС" id="2f33e455-d85e-49fe-9320-d84d883018ce"/>
 			<Metadata name="Catalog.ТранспортныеСредства.Attribute.ГодВыпуска" id="8e0f510b-c85a-40c0-b29e-982e5e948ca1"/>
@@ -211,7 +211,7 @@
 		<Metadata name="CommonModule.РаботаСДокументами.Module" id="80a7e2a4-9d53-4a25-9c41-2cfd781375d7.0" configVersion="2efaf64df10fa04ab102774148881b5100000000"/>
 		<Metadata name="CommonModule.РаботаСоСправочниками" id="c4916f3a-8690-4442-898d-cc422e591f1b" configVersion="7e69e04ef569a344ac8f8af2239dafe800000000"/>
 		<Metadata name="CommonModule.РаботаСоСправочниками.Module" id="c4916f3a-8690-4442-898d-cc422e591f1b.0" configVersion="89199db7afc8ed40870bb252b7cc637600000000"/>
-		<Metadata name="Configuration.ИС22_МакароваАС" id="ade98f77-3113-4188-a992-84b95a53aa39" configVersion="5755916a6515a2429f122d69f648c8bd00000000"/>
+		<Metadata name="Configuration.ИС22_МакароваАС" id="ade98f77-3113-4188-a992-84b95a53aa39" configVersion="e4af511b3783df4ebd87e76146f6f59200000000"/>
 		<Metadata name="Configuration.ИС22_МакароваАС.SessionModule" id="574dec3d-adb1-4778-b1b6-8164b8e4933e.7" configVersion="d2e8dddae880384fa138ebf39cc7dd7700000000"/>
 		<Metadata name="Constant.НазваниеОрганизации" id="836a2599-5af9-42bc-a509-50c0e0ed5887" configVersion="ec251bb07ed1344e947fdba13a65a54800000000"/>
 		<Metadata name="Constant.ОбычнаяСкидка" id="f874202b-aa85-4dca-a663-093a99085603" configVersion="7672b3001333be4ea225b1b76972abf700000000"/>
@@ -422,6 +422,13 @@
 			<Metadata name="Enum.ВидОплаты.EnumValue.Наличный" id="2f8d75bc-a549-4bde-ba6e-a101e112b5a7"/>
 			<Metadata name="Enum.ВидОплаты.EnumValue.Безналичный" id="4461437a-9b78-45b9-b8a5-eec3a849727e"/>
 			<Metadata name="Enum.ВидОплаты.EnumValue.Взаиморасчет" id="ac7a9703-d787-4462-b28c-2ec97a149368"/>
+		</Metadata>
+		<Metadata name="Enum.ВидТС" id="39d985d8-be1a-4f09-8bd6-bcf73075a8bb" configVersion="1f22fd7eaf25184a8ab46445e408171d00000000">
+			<Metadata name="Enum.ВидТС.EnumValue.Автомобилный" id="0f5343db-b458-40f9-8e93-0b0ecb033ddf"/>
+			<Metadata name="Enum.ВидТС.EnumValue.Речной" id="488e0038-d224-490e-a3bd-f4550e99dbd5"/>
+			<Metadata name="Enum.ВидТС.EnumValue.Железнодорожный" id="89a4e1cd-2c6c-4e79-8c38-23973be1f8f1"/>
+			<Metadata name="Enum.ВидТС.EnumValue.Воздушный" id="e018325e-da8a-440e-8070-c46dac91b959"/>
+			<Metadata name="Enum.ВидТС.EnumValue.Морской" id="fa433870-43e7-4df9-bb3e-241dd9b473f2"/>
 		</Metadata>
 		<Metadata name="Enum.ВидыНоменклатуры" id="12ce8f3b-a1f6-4685-875a-4522683e9dee" configVersion="fa7186e9514831448eedc84cc9455c2700000000">
 			<Metadata name="Enum.ВидыНоменклатуры.EnumValue.Товары" id="30975b8d-a704-4d03-b02e-5cb35dc386e5"/>
