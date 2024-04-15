@@ -3750,7 +3750,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ОказаниеУслуг.Attribute.Мастер</name>
+		<name>Document.ОказаниеУслуг.Attribute.Водитель</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>

@@ -20,14 +20,8 @@
 			<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
 			<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
 		</InputField>
-		<InputField name="Склад" id="7">
-			<DataPath>Объект.Склад</DataPath>
-			<EditMode>EnterOnInput</EditMode>
-			<ContextMenu name="СкладКонтекстноеМеню" id="8"/>
-			<ExtendedTooltip name="СкладРасширеннаяПодсказка" id="9"/>
-		</InputField>
 		<InputField name="Мастер" id="10">
-			<DataPath>Объект.Мастер</DataPath>
+			<DataPath>Объект.Водитель</DataPath>
 			<EditMode>EnterOnInput</EditMode>
 			<ContextMenu name="МастерКонтекстноеМеню" id="11"/>
 			<ExtendedTooltip name="МастерРасширеннаяПодсказка" id="12"/>
@@ -42,6 +36,12 @@
 			<DataPath>Объект.НаборСвойствКлиента</DataPath>
 			<ContextMenu name="НаборСвойствКлиентаКонтекстноеМеню" id="96"/>
 			<ExtendedTooltip name="НаборСвойствКлиентаРасширеннаяПодсказка" id="97"/>
+		</InputField>
+		<InputField name="Склад" id="7">
+			<DataPath>Объект.Склад</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="СкладКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="СкладРасширеннаяПодсказка" id="9"/>
 		</InputField>
 		<InputField name="ВидОплаты" id="16">
 			<DataPath>Объект.ВидОплаты</DataPath>

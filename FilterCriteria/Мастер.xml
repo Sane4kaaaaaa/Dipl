@@ -26,7 +26,7 @@
 			<UseStandardCommands>true</UseStandardCommands>
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Склады.Attribute.МатериальноОтветственноеЛицо</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Document.ОказаниеУслуг.Attribute.Мастер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ОказаниеУслуг.Attribute.Водитель</xr:Item>
 			</Content>
 			<DefaultForm>FilterCriterion.Мастер.Form.ФормаСписка</DefaultForm>
 			<AuxiliaryForm/>

@@ -273,16 +273,16 @@
 			<DocumentJournal>РасходныеДокументы</DocumentJournal>
 			<DocumentJournal>ДвижениеТоваров</DocumentJournal>
 			<DocumentJournal>СкладскиеДокументы</DocumentJournal>
+			<Enum>ВидТС</Enum>
+			<Enum>ВидКонтрагента</Enum>
+			<Enum>ВидОплаты</Enum>
 			<Enum>Образование</Enum>
+			<Enum>ТипСклада</Enum>
+			<Enum>ВидыНоменклатуры</Enum>
 			<Enum>Настроение</Enum>
 			<Enum>СоциальноеПоложение</Enum>
 			<Enum>ТипКлиента</Enum>
 			<Enum>Пол</Enum>
-			<Enum>ВидКонтрагента</Enum>
-			<Enum>ТипСклада</Enum>
-			<Enum>ВидОплаты</Enum>
-			<Enum>ВидыНоменклатуры</Enum>
-			<Enum>ВидТС</Enum>
 			<Report>Материалы</Report>
 			<Report>ЦеныПоставщиков</Report>
 			<Report>ДвижениеНаличностиЗаПериод</Report>

@@ -3122,7 +3122,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ОказаниеУслуг.Attribute.Мастер</name>
+		<name>Document.ОказаниеУслуг.Attribute.Водитель</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
