@@ -1191,7 +1191,7 @@
 		</right>
 	</object>
 	<object>
-		<name>AccumulationRegister.Продажи.Dimension.Мастер</name>
+		<name>AccumulationRegister.Продажи.Dimension.Водитель</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>

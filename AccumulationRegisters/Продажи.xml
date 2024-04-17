@@ -253,11 +253,11 @@
 			</Dimension>
 			<Dimension uuid="23babde3-7897-497c-bde2-29855760696e">
 				<Properties>
-					<Name>Мастер</Name>
+					<Name>Водитель</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Мастер</v8:content>
+							<v8:content>Водитель</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
