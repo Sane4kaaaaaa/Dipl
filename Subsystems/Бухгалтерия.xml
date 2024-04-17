@@ -53,6 +53,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.КарточкаГруза</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ТранспортныеСредства</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.БазаАдресов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ДМаршрутныйЛист</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
