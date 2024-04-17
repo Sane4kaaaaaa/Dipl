@@ -30,7 +30,7 @@
 			<ExtendedTooltip name="ТранспортноеСредствоРасширеннаяПодсказка" id="12"/>
 		</InputField>
 		<InputField name="АдресОтправки" id="13">
-			<DataPath>Объект.Адрес</DataPath>
+			<DataPath>Объект.АдресОтправки</DataPath>
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -42,13 +42,7 @@
 			<ExtendedTooltip name="АдресОтправкиРасширеннаяПодсказка" id="15"/>
 		</InputField>
 		<InputField name="АдресДоставки" id="19">
-			<DataPath>Объект.Адрес</DataPath>
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Адрес доставки</v8:content>
-				</v8:item>
-			</Title>
+			<DataPath>Объект.АдресДоставки</DataPath>
 			<ContextMenu name="АдресДоставкиКонтекстноеМеню" id="20"/>
 			<ExtendedTooltip name="АдресДоставкиРасширеннаяПодсказка" id="21"/>
 		</InputField>
@@ -71,4 +65,17 @@
 			</UseAlways>
 		</Attribute>
 	</Attributes>
+	<CommandInterface>
+		<CommandBar>
+			<Item>
+				<Command>0:8d0eb81c-8050-422c-9764-9aac699e4b31</Command>
+				<Type>Auto</Type>
+				<CommandGroup>FormCommandBarImportant</CommandGroup>
+				<DefaultVisible>false</DefaultVisible>
+				<Visible>
+					<xr:Common>false</xr:Common>
+				</Visible>
+			</Item>
+		</CommandBar>
+	</CommandInterface>
 </Form>

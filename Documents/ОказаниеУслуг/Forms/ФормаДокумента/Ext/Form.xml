@@ -52,7 +52,7 @@
 							<ExtendedTooltip name="КлиентРасширеннаяПодсказка" id="15"/>
 						</InputField>
 						<InputField name="АдресОтправки" id="98">
-							<DataPath>Объект.Адрес</DataPath>
+							<DataPath>Объект.АдресОтправки</DataPath>
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
@@ -63,13 +63,7 @@
 							<ExtendedTooltip name="АдресОтправкиРасширеннаяПодсказка" id="100"/>
 						</InputField>
 						<InputField name="АдресДоставки" id="109">
-							<DataPath>Объект.Адрес</DataPath>
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Адрес доставки</v8:content>
-								</v8:item>
-							</Title>
+							<DataPath>Объект.АдресДоставки</DataPath>
 							<ContextMenu name="АдресДоставкиКонтекстноеМеню" id="110"/>
 							<ExtendedTooltip name="АдресДоставкиРасширеннаяПодсказка" id="111"/>
 						</InputField>
