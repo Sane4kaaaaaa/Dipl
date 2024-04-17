@@ -273,12 +273,12 @@
 			<Metadata name="Document.ОказаниеУслуг.TabularSection.ТЧ_ПереченьНоменклатуры.Attribute.Материал" id="f87f1894-9e59-4565-9d30-11ce2aca72d4"/>
 		</Metadata>
 		<Metadata name="Document.ОказаниеУслуг.Command.Печать.CommandModule" id="54584190-7afd-4fc2-8669-ac70611c5b56.2" configVersion="cf2bf6caa45c9c4393a270194e15568e00000000"/>
-		<Metadata name="Document.ОказаниеУслуг.Form.ФормаДокумента" id="d4b8bc8e-99d6-4f18-bd69-0683129976da" configVersion="5c9412706cc21d4594b94de782269c2d00000000"/>
-		<Metadata name="Document.ОказаниеУслуг.Form.ФормаДокумента.Form" id="d4b8bc8e-99d6-4f18-bd69-0683129976da.0" configVersion="982983293c499741a0d7ff9a371fc42a00000000"/>
+		<Metadata name="Document.ОказаниеУслуг.Form.ФормаДокумента" id="d4b8bc8e-99d6-4f18-bd69-0683129976da" configVersion="2cc2f9d68d3c224ba9fdf446a2a362e400000000"/>
+		<Metadata name="Document.ОказаниеУслуг.Form.ФормаДокумента.Form" id="d4b8bc8e-99d6-4f18-bd69-0683129976da.0" configVersion="ab4a3160af29da4abdb10acc3491852100000000"/>
 		<Metadata name="Document.ОказаниеУслуг.ManagerModule" id="81bc7f9a-7c3e-48d5-9708-b9bed6c7bf29.2" configVersion="616a09c46b0e30498576e4df7fdd4ee900000000"/>
 		<Metadata name="Document.ОказаниеУслуг.ObjectModule" id="81bc7f9a-7c3e-48d5-9708-b9bed6c7bf29.0" configVersion="1d1988ffb8ff8e45b3531eb3442efdc400000000"/>
-		<Metadata name="Document.ОказаниеУслуг.Template.Печать" id="318110e2-2a20-4227-9701-12adb8c27707" configVersion="2ac18e472f5550499c517ec4ee12f86800000000"/>
-		<Metadata name="Document.ОказаниеУслуг.Template.Печать.Template" id="318110e2-2a20-4227-9701-12adb8c27707.0" configVersion="11061f1e6de19040b0e594fe03f2a12700000000"/>
+		<Metadata name="Document.ОказаниеУслуг.Template.Печать" id="318110e2-2a20-4227-9701-12adb8c27707" configVersion="0a95fdf331f6234b88d0cd5a8df356f800000000"/>
+		<Metadata name="Document.ОказаниеУслуг.Template.Печать.Template" id="318110e2-2a20-4227-9701-12adb8c27707.0" configVersion="976f3ff0708daa4ca46022a54a83380600000000"/>
 		<Metadata name="Document.ПриходнаяНакладная" id="6cef6a2c-3e33-4137-a69d-7d87f14b47e9" configVersion="45a4f3e1303f124e99b29559a447156c00000000">
 			<Metadata name="Document.ПриходнаяНакладная.Attribute.Контрагент" id="0125e025-2708-43a6-96b9-f107677243bb"/>
 			<Metadata name="Document.ПриходнаяНакладная.Attribute.Курс" id="037f1135-89a3-4201-b509-71b804e82de0"/>
@@ -661,14 +661,14 @@
 		<Metadata name="Role.Администратор.Rights" id="dfd03574-49f8-4b7b-bd1c-d66cde6a37bb.0" configVersion="123e75de30dc094fa01c46f2ea617f0a00000000"/>
 		<Metadata name="Role.Бухгалтер" id="58410f4f-e27c-4346-90be-0d3d8db83fef" configVersion="f4458a0818a77d48af0061696da27a9800000000"/>
 		<Metadata name="Role.Бухгалтер.Rights" id="58410f4f-e27c-4346-90be-0d3d8db83fef.0" configVersion="44e764d78d2e654ba8d2bf437647ab0600000000"/>
-		<Metadata name="Role.Кассир" id="1dd812d2-8673-4906-99c7-7d89892a1d00" configVersion="3fc486dc5bd5a146a99c874746fbe98f00000000"/>
-		<Metadata name="Role.Кассир.Rights" id="1dd812d2-8673-4906-99c7-7d89892a1d00.0" configVersion="61f639088cf9294f976de264974f168b00000000"/>
+		<Metadata name="Role.Водитель" id="ff38c113-baf6-491c-9e71-71f70487883a" configVersion="21dea1cdd51a64478f016470c02f68b200000000"/>
+		<Metadata name="Role.Водитель.Rights" id="ff38c113-baf6-491c-9e71-71f70487883a.0" configVersion="e054ad5d66aad94b973c1168b245588500000000"/>
 		<Metadata name="Role.Кладовщик" id="8e0e73af-fef7-40aa-9b2f-75663087c264" configVersion="479cfbc24a420c48afe335727d215d8400000000"/>
 		<Metadata name="Role.Кладовщик.Rights" id="8e0e73af-fef7-40aa-9b2f-75663087c264.0" configVersion="799c5bebf093cb42aa71651b868adfff00000000"/>
-		<Metadata name="Role.Мастер" id="ff38c113-baf6-491c-9e71-71f70487883a" configVersion="cb998500680bba42a3e3d6c338c2649f00000000"/>
-		<Metadata name="Role.Мастер.Rights" id="ff38c113-baf6-491c-9e71-71f70487883a.0" configVersion="e054ad5d66aad94b973c1168b245588500000000"/>
 		<Metadata name="Role.Менеджер" id="68db9d33-1ace-4ad1-8633-df5f6325a70f" configVersion="4c4d93586f524244826cba248072aa3b00000000"/>
 		<Metadata name="Role.Менеджер.Rights" id="68db9d33-1ace-4ad1-8633-df5f6325a70f.0" configVersion="38ef7151290aea4dbfec8b3bad74db7000000000"/>
+		<Metadata name="Role.Оператор" id="1dd812d2-8673-4906-99c7-7d89892a1d00" configVersion="dfd8ed6c56bfd4489f7d346dc5915b6000000000"/>
+		<Metadata name="Role.Оператор.Rights" id="1dd812d2-8673-4906-99c7-7d89892a1d00.0" configVersion="61f639088cf9294f976de264974f168b00000000"/>
 		<Metadata name="Role.Расчетчик" id="f64935bf-da7b-410b-bf4c-f0ebf2ab2ffc" configVersion="622304aea137e74186d9e4546242e16800000000"/>
 		<Metadata name="Role.Расчетчик.Rights" id="f64935bf-da7b-410b-bf4c-f0ebf2ab2ffc.0" configVersion="e41e5f351c0ec942a24b55e45aa5077f00000000"/>
 		<Metadata name="Role.ТолькоПросмотр" id="f0bd2ae4-ba5d-492f-850a-0c86107b9810" configVersion="7bc742335af4b34b93dd8751042b1ceb00000000"/>

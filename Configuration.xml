@@ -224,11 +224,11 @@
 			<SessionParameter>ТекущийИсполнитель</SessionParameter>
 			<Role>Администратор</Role>
 			<Role>ТолькоПросмотр</Role>
-			<Role>Мастер</Role>
+			<Role>Водитель</Role>
 			<Role>Расчетчик</Role>
 			<Role>Бухгалтер</Role>
 			<Role>Менеджер</Role>
-			<Role>Кассир</Role>
+			<Role>Оператор</Role>
 			<Role>Кладовщик</Role>
 			<FilterCriterion>КритерийНоменклатура</FilterCriterion>
 			<FilterCriterion>КритерийКонтрагент</FilterCriterion>

@@ -20,11 +20,11 @@
 			<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
 			<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
 		</InputField>
-		<InputField name="Мастер" id="10">
+		<InputField name="Водитель" id="10">
 			<DataPath>Объект.Водитель</DataPath>
 			<EditMode>EnterOnInput</EditMode>
-			<ContextMenu name="МастерКонтекстноеМеню" id="11"/>
-			<ExtendedTooltip name="МастерРасширеннаяПодсказка" id="12"/>
+			<ContextMenu name="ВодительКонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="ВодительРасширеннаяПодсказка" id="12"/>
 		</InputField>
 		<InputField name="Клиент" id="13">
 			<DataPath>Объект.Клиент</DataPath>
